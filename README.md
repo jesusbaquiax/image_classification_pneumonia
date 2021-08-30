@@ -56,11 +56,11 @@ The third model was chosen because it was able to determine whether a patient ha
 
 ### Train Score
 
-![third_train_scores](./images/fourth_train_scores.PNG)
+![third_train_scores](./images/third_train_scores.PNG)
 
 ### Test Score
 
-![third_test_scores](./images/fourth_test_scores.PNG)
+![third_test_scores](./images/third_test_scores.PNG)
 
 
 ## Future Analysis
