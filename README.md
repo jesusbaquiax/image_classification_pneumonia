@@ -37,13 +37,15 @@ Since this is a binary classification problem, our output layer will need to be 
 
 We will compile this model with a 'sgd' (stochastic gradient descent) as the optimizer, 'binary_crossentropy' as the loss function, 'accuracy' as the metrics.
 
-The first model performed with any accuracy of 73% for the train and test dataset which performed on the same level of the baseline model.
+The first model performed with an accuracy of 73% which is on the same level of the baseline model.
 
-The second model builds off the first model and adds three additional layers in the hopes to improve the score. The second model performed significantly better with an accuracy and recall score with a 77% and 86% accuracy score for the train and test set, respectively.
+The second model builds on the first model and adds additional layers in the hopes to improve the score. It improved the model performance with an accuracy and recall score with a 77% and 86% accuracy score.
 
-The third model is Convolutional Neural Network which is a subset of neural networks that contains at least one convulation layer and is ideal for reducing complexity of the model to improve training speed and reduces the chance of overfitting. However, the model produced a score of 93% and 89% for the train and test set, respectively which indicates that the model is overfitting.
+Our goal is obtaining an accuracy score highter than 90% and a recall score higher than 95%. The recall score is especially important in the healthcare field because it is more important to minimize the chances of being diagnosed normal when actually the patient has pneumonia.
 
-The fourth model included weight classes to see how this will affect the scores. Weight classes is another method to address a class imbalance. More weight was given to the normal images to reduce overfitting. The model produced a score of 98% and 90% for the train and test set, respectively. In addtion, the recall score of this model was 93% which lowered the changes of false negatives. This is especially important in the healthcare field because it is more important to minimize the chances being diagnosed normal but actually has pneumonia vs being diagnosed with pneumonia and not actually having it. 
+The third model is Convolutional Neural Network which is a subset of neural networks that contains at least one convulation layer and is ideal for reducing complexity of the model to improve training speed and reduces the chance of overfitting. The model produced an accuracy score of 94% and 90% for the train and test set respectively and a recall score of 98%. This is a huge improvement. 
+
+The fourth model included weight classes to see how this will affect the scores. Weight classes is another method to address a class imbalance. More weight was given to the normal images to reduce overfitting. The model produced an accuracy score of 99% and 90% for the train and test set respectively and a recall score of 93%. 
 
 
 
@@ -54,11 +56,11 @@ The third model was chosen because it was able to determine whether a patient ha
 
 ### Train Score
 
-![third_train_scores](./images/third_train_scores.PNG)
+![fourth_train_scores](./images/fourth_train_scores.PNG)
 
 ### Test Score
 
-![third_test_scores](./images/third_test_scores.PNG)
+![fourth_test_scores](./images/fourth_test_scores.PNG)
 
 
 ## Future Analysis
