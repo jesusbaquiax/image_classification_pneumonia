@@ -54,11 +54,11 @@ The fourth model was chosen because it was able to determine whether a patient h
 
 ### Train Score
 
-![fourth_train_scores](./images/fourth_train_scores.PNG)
+![third_train_scores](./images/third_train_scores.PNG)
 
 ### Test Score
 
-![fourth_test_scores](./images/fourth_test_scores.PNG)
+![third_test_scores](./images/third_test_scores.PNG)
 
 
 ## Future Analysis
