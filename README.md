@@ -54,11 +54,11 @@ The fourth model was chosen because it was able to determine whether a patient h
 
 ### Train Score
 
-![fourth_model_train_score](./Images/fourth_train_scores.PNG)
+![fourth_train_scores](./images/fourth_train_scores.PNG)
 
 ### Test Score
 
-![fourth_model_test_score](./Images/fourth_train_scores.PNG)
+![fourth_test_scores](./Images/fourth_test_scores.PNG)
 
 
 ## Future Analysis
@@ -71,7 +71,7 @@ The next step of the work would be to expand our model to be able to predict whe
 ```bash
 
 ├── Images                  
-├── ImageClassification.ipynb                  
+├── CNN.ipynb                  
 ├── README.md               
 ├── Input
 ├── Split             
