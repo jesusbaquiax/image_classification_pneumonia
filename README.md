@@ -29,29 +29,29 @@ The next step of the preprocess was to address the class imbalance between norma
 
 ### Models
 
-The baseline model was a dummy classifier model using a ‘most_frequent’ strategy to establish a baseline accuracy score of 73% for both the train and test dataset. 
+The baseline model was a dummy classifier model using a ‘most_frequent’ strategy to establish a baseline accuracy score of 73% for both the train and test datasets. 
 
 The first model consisted of a dense hidden layer with 20 neurons and a 'relu' activation function. ReLU is one of the most commonly used activation functions and it's especially useful in computer vision problems like image classification.
 
-Since this is a binary classification problem, our output layer will need to be a Dense layer where the number of neurons is the same as the number of classes in the labels. Thus, we will use 1 neuron and a 'sigmoid' activation function for the output layer.
+Since this was a binary classification problem, our output layer needed to be a Dense layer where the number of neurons was the same as the number of classes in the labels. Thus, we used 1 neuron and a 'sigmoid' activation function for the output layer.
 
-We will compile this model with a 'sgd' (stochastic gradient descent) as the optimizer, 'binary_crossentropy' as the loss function, 'accuracy' as the metrics.
+We compiled this model with a 'sgd' (stochastic gradient descent) as the optimizer, 'binary_crossentropy' as the loss function, 'accuracy' as the metrics.
 
-The first model performed with an accuracy of 73% which is on the same level of the baseline model.
+The first model performed with an accuracy of 73% and 77% for the train and test set respectively, which was a little better than the baseline model.
 
-The second model builds on the first model and adds additional layers in the hopes to improve the score. It improved the model performance with an accuracy and recall score with a 77% and 86% accuracy score.
+The second model was built on the first model with additional layers in the hopes to improve the score. The model performance improved with an accuracy score of 79% and 83% for the train and test set respectively, which was better thant the first model.
 
-Our goal is obtaining an accuracy score highter than 90% and a recall score higher than 95%. The recall score is especially important in the healthcare field because it is more important to minimize the chances of being diagnosed normal when actually the patient has pneumonia.
+Our goal was to obtain an accuracy score highter than 90% and a recall score higher than 95%. The recall score is especially important in the healthcare field because it is more important to minimize the chances of being diagnosed normal when actually the patient has pneumonia.
 
-The third model is Convolutional Neural Network which is a subset of neural networks that contains at least one convulation layer and is ideal for reducing complexity of the model to improve training speed and reduces the chance of overfitting. The model produced an accuracy score of 94% and 90% for the train and test set respectively and a recall score of 98%. This is a huge improvement. 
+The third model used Convolutional Neural Network. It is a subset of neural networks that contains at least one convulation layer and is ideal for reducing complexity of the model to improve training speed and reduces the chance of overfitting. The model produced an accuracy score of 94% and 90% for the train and test set respectively and a recall score of 98%. This was a huge improvement. 
 
-The fourth model included weight classes to see how this will affect the scores. Weight classes is another method to address a class imbalance. More weight was given to the normal images to reduce overfitting. The model produced an accuracy score of 99% and 90% for the train and test set respectively and a recall score of 93%. 
+The fourth model included weight classes to see how this would affect the scores. Weight classes is another method to address a class imbalance. More weight was given to the normal images to reduce overfitting. The model produced an accuracy score of 99% and 90% for the train and test set respectively and a recall score of 93%. 
 
 
 
 ## Results 
 
-The third model was chosen because it was able to determine whether a patient had pneumonia by examining their x-ray image with a 90% accuracy score and 98% recall score.
+The third model was chosen because it was able to determine whether a patient had pneumonia by examining their x-ray image with a 90% accuracy score and a 98% recall score.
 
 
 ### Train Score
