@@ -58,7 +58,7 @@ The fourth model was chosen because it was able to determine whether a patient h
 
 ### Test Score
 
-![fourth_test_scores](./Images/fourth_test_scores.PNG)
+![fourth_test_scores](./images/fourth_test_scores.PNG)
 
 
 ## Future Analysis
