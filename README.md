@@ -49,7 +49,7 @@ The fourth model included weight classes to see how this will affect the scores.
 
 ## Results 
 
-The fourth model was chosen because it was able to determine whether a patient had pneumonia by examining their x-ray image with a 98% accuracy score and 93% recall score.
+The third model was chosen because it was able to determine whether a patient had pneumonia by examining their x-ray image with a 90% accuracy score and 98% recall score.
 
 
 ### Train Score
